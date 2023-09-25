@@ -1,0 +1,127 @@
+
+
+.mainbody {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+
+}
+
+.result {
+    background-color: #614BC3;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border: 10px;
+    border-radius: 15px;
+    gap: 2em;
+    height: 100%;
+    font-weight: lighter;
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    background-color: white
+    padding: 30px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.your-summary {
+    text-align: left;
+    
+}
+
+.scores summary {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.reaction {
+    display: grid;
+    grid-auto-flow: column;
+    background-color: #FF0000;
+    border-radius: 5px;
+    color: #FF0000;
+    padding: 5px;
+}
+
+.memory {
+    display: grid;
+    grid-auto-flow: column;
+    background-color: orange;
+    border-radius: 5px;
+    color: orange;
+    padding: 5px;
+}
+
+.verbal {
+    display: grid;
+    grid-auto-flow: column;
+    background-color: green;
+    border-radius: 5px;
+    color: green;
+    padding: 5px;
+}
+
+.visual {
+    display: grid;
+    grid-auto-flow: column;
+    background-color: rgba(97, 75, 195, .1);
+    border-radius: 5px;
+    color: #614BC3;
+    padding: 5px;
+}
+
+.figures {
+    color: black;
+}
+
+.numbers {
+    font-weight: bold;
+    
+}
+
+.numerator {
+    font-size: 70px;
+    font-weight: bolder;
+    
+}
+
+.general-score {
+    background-color: #4D2DB7;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 auto;
+    width: 150px;
+    padding: 20 0;
+    
+}
+
+button {
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    display: inline-block;
+    width: 300px;
+
+
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.you-have {
+    display: inline-block;
+    width: 70%;
+    text-align: center;
+}
